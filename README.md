@@ -1,3 +1,13 @@
+# Installation
+
+Get started:
+
+```javascript
+$ npm install
+$ npm run dev
+```
+
+
 # BEM (Block Element Modifier)
 
 ## TL;DR
