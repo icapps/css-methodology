@@ -1,0 +1,29 @@
+.sub-step {
+    position: relative;
+    padding: 20px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+
+    font-size: 1.2em;
+    color: $default_sub_step_color;
+
+    box-shadow: 0 2px 4px 0 rgba(225, 225, 225, .5);
+    background: white;
+
+    > img {
+        display: block;
+        max-width: 100%;
+        padding: 20px 0 0;
+        clear: both;
+
+        zoom: .5;
+        -moz-transform: scale(0.5);
+    }
+
+    &::before {
+        counter-increment: substep;
+        content:  counter(substep) ". ";
+        position: absolute;
+        transform: translateX( calc(-100% - 5px) );
+    }
+}

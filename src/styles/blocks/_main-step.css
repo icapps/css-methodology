@@ -1,0 +1,74 @@
+.main-step {
+    position: relative;
+    counter-reset: substep;
+    overflow: visible;
+
+}
+
+.main-step__title {
+    display: inline-block;
+    font-size: 1.2em;
+    font-family: FuturaPTBookHeavy;
+    padding: 15px 0 25px 10px;
+    width: calc(100% - 60px);
+    padding: 15px 0 25px 10px;
+
+    @media (min-width: $screen-sm-min) {
+        padding: 15px 0 25px;
+        display: block;
+    }
+}
+
+.main-step__icon {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    border: 5px solid #f4fafc;
+    transform: translateY(15px);
+
+    background-color: #dddddd;
+    border-radius: 100%;
+
+    @media (min-width: $screen-sm-min) {
+        position: absolute;
+        display: block;
+        top: 0;
+        transform: translate( calc(-100% - 15px), 0);
+    }
+
+    &::before {
+        counter-increment: mainstep;
+        content:  counter(mainstep);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+
+        font-size: 1.2em;
+    }
+}
+
+.main-step--is-active {
+    > .main-step__icon {
+        border: 5px solid $brand-primary;
+        background: white;
+    }
+}
+
+.main-step--is-completed {
+    > .main-step__icon {
+        border: 5px solid $brand-success;
+        background: $brand-success;
+
+        &::before {
+            content: '';
+            background-image: url('../images/check-white.svg');
+            background-size: 75%;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
