@@ -1,0 +1,35 @@
+/** postcss-bem-linter: define button */
+
+
+.button {
+  color: red;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px 20px;
+
+  font-weight: normal;
+
+  border-radius: 5px;
+
+  background: $brand;
+  color: white;
+  border: 0;
+}
+
+.button_icon {fa
+}
+
+.button__danger {
+  background: $error;
+  color: $white;
+}
+
+.button__success {
+  background: $success;
+  color: $white;
+}
+/* @end */

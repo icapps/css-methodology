@@ -1,0 +1,41 @@
+.my-form {
+  position: relative;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+
+}
+
+.my-form__fieldset {
+  position: relative;
+  background-color: #eee;
+  border-radius: 2px;
+  border: 1px solid #efefef;
+  margin: 10px;
+}
+
+.my-form__input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  clear: both;
+
+  &:focus {
+
+    ~ .my-form__label {
+      top: 0 !important;
+      font-size: .7em;
+      color: #aaa;
+    }
+  }
+}
+
+.my-form__label {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  transition: all 300ms;
+  color: #ccc;
+  pointer-events: none;
+}

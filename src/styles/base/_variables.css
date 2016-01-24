@@ -1,0 +1,23 @@
+/* *******************
+Default settings
+*/
+
+$font-size-default:         14px !default;
+$font-size-small:           13px !default;
+$font-size-large:           16px !default;
+
+$font-family-default:       "Times" !default;
+$font-family-alternative:   "Arial" !default;
+
+$padding:                   15px !default;
+
+$border-default:            1px solid $brand !default;
+
+$text-color-default:        $black !default;
+
+/********************
+Module settings
+********************/
+
+/*m-button*/
+$button-height:             20px !default;

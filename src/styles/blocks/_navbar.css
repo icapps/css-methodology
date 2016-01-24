@@ -1,0 +1,45 @@
+/** @define navbar */
+
+.navbar {
+  display: block;
+}
+
+.navbar__list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 0;
+
+  border: 1px solid $brand-dark;
+  border-radius: 8px;
+}
+
+.navbar__list-item {
+  position: relative;
+  display: flex;
+  vertical-align: middle;
+  padding: 10px 20px;
+  white-space: nowrap;
+  border-right: 1px solid $brand-dark;
+
+  text-transform: uppercase;
+  color: $brand-light;
+
+  cursor: pointer;
+
+  &:last-child {
+    border-right: 0;
+  }
+
+  &:hover {
+    color: $brand-dark;
+  }
+}
+
+.navbar__list-item--active {
+  color: $brand-light;
+  background: $brand-dark;
+}
+/* @end */
