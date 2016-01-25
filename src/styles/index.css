@@ -1,10 +1,10 @@
 /* Base imports */
-/*@import "base/_base-imports";*/
+@import "base/_base-imports";
 
 /* Modules */
 @import "blocks/_button";
-/*@import "blocks/_navbar";*/
-/*@import "blocks/_my-form";*/
+@import "blocks/_navbar";
+@import "blocks/_my-form";
 
 /* Layouts */
-/*@import "layouts/_l-homepage";*/
+@import "layouts/_l-homepage";

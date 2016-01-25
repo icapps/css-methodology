@@ -24,7 +24,7 @@
   &:focus {
 
     ~ .my-form__label {
-      top: 0 !important;
+      top: 0;
       font-size: .7em;
       color: #aaa;
     }

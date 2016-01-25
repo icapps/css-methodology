@@ -1,10 +1,5 @@
 /** postcss-bem-linter: define button */
 
-
-.button {
-  color: red;
-}
-
 .button {
   position: relative;
   display: inline-block;
@@ -20,15 +15,12 @@
   border: 0;
 }
 
-.button_icon {fa
-}
-
-.button__danger {
+.button--danger {
   background: $error;
   color: $white;
 }
 
-.button__success {
+.button--success {
   background: $success;
   color: $white;
 }

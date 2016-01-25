@@ -31,10 +31,10 @@ module.exports = {
       atImport({
         // addDependencyTo: webpack
       }),
-      // precss,
-      // autoprefixer({ browsers: ['last 2 versions'] }),
-      // fontMagician,
-      bemLinter('bem'),
+      precss,
+      autoprefixer({ browsers: ['last 2 versions'] }),
+      fontMagician,
+      // bemLinter('bem'),
     ];
   },
   plugins: [

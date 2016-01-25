@@ -32,7 +32,8 @@ This smalle example summarizes the block-element-modifier idea.
 .modal--large {}
 ```
 
-[Block]()
+
+-
 
 ## Block
 
@@ -60,6 +61,8 @@ Any DOM node can be a block if it accepts a class name.
 .block { color: #042; }
 ```
 
+
+-
 
 ## Element
 
@@ -100,6 +103,7 @@ div.block__elem { color: #042; }
 ```
 
 
+-
 
 ## Modifier
 
@@ -148,6 +152,8 @@ Element modifier:
 ```
 
 
+-
+
 ## Namespaces
 
 - **l-** : layout
@@ -164,6 +170,8 @@ Element modifier:
 - **s-** : Signify that a class creates a new styling context or Scope. Similar to a Theme, but not necessarily cosmetic, these should be used sparingly—they can be open to abuse and lead to poor CSS if not used wisely.
 - **is-, has-** : Signify that the piece of UI in question is currently styled a certain way because of a state or condition. This stateful namespace is gorgeous, and comes from SMACSS. It tells us that the DOM currently has a temporary, optional, or short-lived style applied to it due to a certain state being invoked.
 
+
+-
 
 ## Links
 
