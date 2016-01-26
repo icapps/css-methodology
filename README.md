@@ -1,4 +1,6 @@
-# CSS Methodology
+# CSS Methodology - WIP
+
+**Up until today, this repository is a Work In Progress document**
 
 This document explains BEM in a simple example. To lean more about the topic, check the following pages or the links below.
 
