@@ -21,6 +21,17 @@ $ npm run dev
 ```
 
 
+
+## What are we solving?
+
+By using this methodology, we try to enable a team of developers to stay confident when writing CSS in a large scale project or any project where code is written by mutliple developers. BEM naming provides independent blocks and css selectors which makes your code reusable and modular.
+
+
+The official BEM website provides a good explanation on what BEM tries to solve: [https://en.bem.info/method/solved-problems/](https://en.bem.info/method/solved-problems/)
+
+
+
+
 ## BEM (Block Element Modifier)
 
 #### TL;DR
