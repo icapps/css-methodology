@@ -1,6 +1,6 @@
 # CSS Methodology - WIP
 
-**Up until today, this repository is a Work In Progress document**
+**Remember, this is a Work In Progress document**
 
 This document explains BEM in a simple example. To lean more about the topic, check the following pages or the links below.
 
@@ -48,7 +48,7 @@ This small example summarizes the block-element-modifier idea.
 
 ## Links
 
-- [http://getbem.com]()
-- [https://en.bem.info]()
-- [https://css-tricks.com/bem-101/]()
+- [http://getbem.com](http://getbem.com)
+- [https://en.bem.info](https://en.bem.info)
+- [https://css-tricks.com/bem-101/](https://css-tricks.com/bem-101/)
 - [MindBEMding – getting your head ’round BEM syntax'](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
